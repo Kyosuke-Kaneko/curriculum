@@ -15,6 +15,7 @@ public class Check{
             System.out.print(data[i] + " ");
         }
         System.out.println();
+        
         for (int i = 0; i < data.length - 1; i++) {
             for (int j = data.length - 1; j > i; j--) {
                 /*
@@ -22,9 +23,9 @@ public class Check{
                 * 以下、配列の添字を入れてソートを完成させなさい
                 */
                 if(data[j-1] > data[j]){
-                  int box = data[j];
-                  data[j] = data[j-1];
-                  data[j-1] = box;
+                  int box = data[j];  /*boxにちっちゃい方であるdata[j]を代入*/
+                  data[j] = data[j-1]; /*data[j]つまり後ろに大きい方の要素を代入*/
+                  data[j-1] = box; /*data[j-1]つまり前にちっちゃい方であるboxを代入*/
                 }
             }
         }
