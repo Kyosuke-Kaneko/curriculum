@@ -1,0 +1,99 @@
+
+!ENTRY org.eclipse.core.resources 4 566 2020-08-23 04:52:05.150
+!MESSAGE セーフ・テーブルを保存できませんでした。
+!STACK 0
+java.io.FileNotFoundException: /Users/kyosukekaneko/LetsEngineer/curriculum/JavaStudy/.metadata/.plugins/org.eclipse.core.resources/.safetable/com.eclipserunner.plugin.53 (No such file or directory)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:298)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:237)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:187)
+	at org.eclipse.core.internal.resources.SafeFileTable.save(SafeFileTable.java:78)
+	at org.eclipse.core.internal.resources.SaveContext.commit(SaveContext.java:44)
+	at org.eclipse.core.internal.resources.SaveManager.commit(SaveManager.java:331)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1228)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1143)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:55)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY mergedoc.encoding 2 0 2020-08-23 04:52:35.933
+!MESSAGE ファイルが見つかりません: /Users/kyosukekaneko/LetsEngineer/curriculum/JavaStudy/2-3/src/study/Task.java.
+
+!ENTRY mergedoc.encoding 2 0 2020-08-23 04:52:35.933
+!MESSAGE ファイルが見つかりません: /Users/kyosukekaneko/LetsEngineer/curriculum/JavaStudy/2-3/src/study/Task.java.
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-23 04:52:36.265
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-23 04:52:36.265
+!MESSAGE classpath=1 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-23 04:52:36.267
+!MESSAGE buffering callback sts4.classpath.LQdYIKaE 2-3 false 1
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-23 04:52:36.268
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-23 04:52:36.268
+!MESSAGE classpath=1 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-23 04:52:36.269
+!MESSAGE buffering callback sts4.classpath.LQdYIKaE 2−1 false 1
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-23 04:52:36.269
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-23 04:52:36.269
+!MESSAGE classpath=1 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-23 04:52:36.270
+!MESSAGE buffering callback sts4.classpath.LQdYIKaE 2ー2 false 1
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-23 04:52:36.270
+!MESSAGE executing callback sts4.classpath.LQdYIKaE 3 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-23 04:52:36.273
+!MESSAGE executing callback sts4.classpath.LQdYIKaE SUCCESS [終了しました]
+
+!ENTRY mergedoc.encoding 2 0 2020-08-23 04:52:36.331
+!MESSAGE リソース '/2-3/src/study/Calculator.java' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2020-08-23 04:52:36.332
+!MESSAGE リソース '/2-3/src/study/Calculator.java' が存在しません。
+
+!ENTRY org.eclipse.core.resources 4 566 2020-08-23 04:52:54.835
+!MESSAGE マスター・テーブルをファイル '/Users/kyosukekaneko/LetsEngineer/curriculum/JavaStudy/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources.bak' に保存できませんでした。
+!STACK 0
+java.io.FileNotFoundException: /Users/kyosukekaneko/LetsEngineer/curriculum/JavaStudy/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources.bak (No such file or directory)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:298)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:237)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:158)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:48)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:44)
+	at org.eclipse.core.internal.resources.SaveManager.saveMasterTable(SaveManager.java:1265)
+	at org.eclipse.core.internal.resources.SaveManager.cleanMasterTable(SaveManager.java:240)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1173)
+	at org.eclipse.core.internal.resources.Workspace.save(Workspace.java:2333)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor.lambda$1(IDEWorkbenchAdvisor.java:509)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.eclipse.ui.ide 4 4 2020-08-23 04:52:56.335
+!MESSAGE ワークスペースの保存の問題
+
+!ENTRY org.eclipse.ui.ide 4 1 2020-08-23 04:52:56.336
+!MESSAGE ワークベンチの状態を保存中に問題が発生しました。
+!SUBENTRY 1 org.eclipse.core.resources 4 566 2020-08-23 04:52:56.336
+!MESSAGE セーフ・テーブルを保存できませんでした。
+!STACK 0
+java.io.FileNotFoundException: /Users/kyosukekaneko/LetsEngineer/curriculum/JavaStudy/.metadata/.plugins/org.eclipse.core.resources/.safetable/com.eclipserunner.plugin.1 (No such file or directory)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:298)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:237)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:187)
+	at org.eclipse.core.internal.resources.SafeFileTable.save(SafeFileTable.java:78)
+	at org.eclipse.core.internal.resources.SaveContext.commit(SaveContext.java:44)
+	at org.eclipse.core.internal.resources.SaveManager.commit(SaveManager.java:331)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1228)
+	at org.eclipse.core.internal.resources.Workspace.save(Workspace.java:2333)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor.lambda$1(IDEWorkbenchAdvisor.java:509)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)

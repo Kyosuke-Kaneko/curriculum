@@ -1,0 +1,1 @@
+INDEX VERSION 1.131+/Users/kyosukekaneko/LetsEngineer/curriculum/JavaStudy/.metadata/.plugins/org.eclipse.jdt.core
