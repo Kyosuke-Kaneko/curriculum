@@ -1,6 +1,6 @@
-package src.check;
+package check;
 
-import src.constants.Constants;
+import constants.Constants;
 public class Check {
 
 	public static void main(String[] args) {

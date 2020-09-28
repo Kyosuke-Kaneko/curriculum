@@ -1,4 +1,4 @@
-package src.check;
+package check;
 
 public class Pet {
 
