@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div id="app">
+    <alert-component></alert-component>
+    <hello-world></hello-world>
+    <!-- local&gllobalcomponent -->
+    <hello-global></hello-global>
+    <hello-local></hello-local>
+    <!-- parent=>child -->
+    <pocket-money money="1,000"></pocket-money>
+  </div>
+  <div id="app2">
+    <hello-global></hello-global>
+    <hello-local></hello-local>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
