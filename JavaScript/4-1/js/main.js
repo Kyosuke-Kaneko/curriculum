@@ -42,11 +42,8 @@ var app = new Vue({
       });
       return items.length;
     }},
-    search: function() {
-      console.log("ab");
-      if(indexOf(this.keyword) !== -1) {
-        return this.keyword;
-      } 
+    search: function() { 
+      
     }
   
-});
+  })
