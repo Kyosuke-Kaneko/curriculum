@@ -4,6 +4,7 @@ var app = new Vue({
       list: [],
       addText: '',
       keyword: '',
+      searchedList: []
   },
   //watchでlistの変更を監視
   watch: {
@@ -23,8 +24,9 @@ var app = new Vue({
       addToDo: function() {
           if (this.addText !== '') {
               this.list.push({
-                  text: this.addText, 
+                  text: this.addText,
                   isChecked: false,
+                  isSearched: true
               });
           }
           this.addText = '';
@@ -33,6 +35,16 @@ var app = new Vue({
           this.list = this.list.filter(function(todo) {
               return !todo.isChecked;
           });
+      },
+      searchKeyword: function() {
+        var keyword = this.keyword;
+        this.list.forEach(function(item) {
+          if (item.text.indexOf(keyword) !== -1) {
+            item.isSearched = true;
+          } else {
+            item.isSearched = false;
+          }
+        });
       }
   },
   computed: {
@@ -41,9 +53,6 @@ var app = new Vue({
         return !todo.isChecked;
       });
       return items.length;
-    }},
-    search: function() { 
-      
     }
-  
-  })
+  }
+})
